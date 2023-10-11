@@ -1,0 +1,94 @@
+body {
+    background-image: url(/images/fondo1.jpg);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+
+    
+}
+
+/* font */
+@font-face {
+    font-family: holyfat;
+    src: url(/fonts/holyfat/Holyfat.ttf);
+}
+
+.ff-holyfat {
+    font-family: holyfat;
+}
+
+
+/* bg-color */
+.bg-wt{
+    background-color: rgba(240, 248, 255, 0.437);
+    border-radius: 5rem;
+    
+}
+
+.bg-g{
+    background-color: rgb(1, 173, 1);
+}
+
+.bg-wt-footer {
+    background-color: rgba(240, 248, 255, 0.437);
+}
+
+
+/* color-txt */
+.txt-g{
+    color: #4CDA00
+}
+
+.txt-b{
+    color: #42D2E2;
+}
+
+
+/* button */
+.btn-menu {
+    color: #4cda00;
+    background-color: transparent;
+    font-family: holyfat;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 2em;
+}
+
+.btn-menu:hover {
+    background-color:#4CDA00;
+    color: white;
+    font-family: holyfat;
+    width: 6rem;
+}
+
+
+.btn-inscribete {
+    color: #ffffff;
+    background-color: #4CDA00;
+    font-family: holyfat;
+    width: 12rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+}
+
+.btn-inscribete:hover{
+    background-color: #91f45b;
+
+}
+
+
+/* img */
+
+.img-beneficios {
+    filter: none;
+}
+
+.img-beneficios:hover {
+    filter: brightness(2.2);
+}
